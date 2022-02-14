@@ -35,9 +35,6 @@ class Result {
             sockCollection.put(sock, amount + 1);
         }
         
-        System.out.println(sockCollection.toString());
-        System.out.println(sockCollection.keySet());
-        
         int totalPairs = 0;
         
         for (int key : sockCollection.keySet()) {            
